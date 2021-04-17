@@ -44,7 +44,7 @@ sections:
     background_color: secondary
 seo:
   type: stackbit_page_meta
-  title: Posts in NeFalsehoods
+  title: Posts in Falsehoods
   description: This is the author archive page
   extra:
     - name: 'og:type'
