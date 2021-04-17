@@ -11,7 +11,7 @@ sections:
     has_border: false
   - type: blog_feed_section
     blog_feed_cols: three
-    enable_cards: true
+    enable_cards: false
     show_recent: false
     author: data/team/gustav-purpleson.json
     show_date: true
