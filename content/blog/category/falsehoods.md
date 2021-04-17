@@ -2,7 +2,7 @@
 title: Falsehoods
 sections:
   - type: hero_section
-    title: News
+    title: Falsehoods
     subtitle: The optional subtitle
     align: center
     padding_top: medium
