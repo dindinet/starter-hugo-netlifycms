@@ -8,7 +8,7 @@ sections:
     padding_top: medium
     padding_bottom: none
     background_color: none
-    has_border: true
+    has_border: false
   - type: blog_feed_section
     blog_feed_cols: three
     enable_cards: true
