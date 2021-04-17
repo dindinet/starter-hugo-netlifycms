@@ -17,6 +17,7 @@ seo:
 layout: post
 image: /images/classic/post-1.png
 thumb_image: /images/classic/post-1.png
+author: data/team/hugh-saturation.json
 ---
 ## Lorem ipsum
 
