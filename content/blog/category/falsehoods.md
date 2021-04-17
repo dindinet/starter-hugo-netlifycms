@@ -1,5 +1,5 @@
 ---
-title: Fasle
+title: Falsehoods
 sections:
   - type: hero_section
     title: News
