@@ -2,7 +2,7 @@
 title: Home
 sections:
   - type: hero_section
-    title: Th Hero Gallery
+    title: The Unsung Hero Hero Gallery
     subtitle: Optional hero section subtitle
     content: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
