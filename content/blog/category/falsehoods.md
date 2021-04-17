@@ -51,7 +51,7 @@ seo:
       value: website
       keyName: property
     - name: 'og:title'
-      value: Posts in News
+      value: Posts in Falsehoods
       keyName: property
     - name: 'og:description'
       value: This is the author archive page
