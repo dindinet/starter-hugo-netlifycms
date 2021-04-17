@@ -4,6 +4,7 @@ subtitle: lorem-ipsum
 date: '2021-04-17'
 categories:
   - data/categories/falsehoods.json
+  - data/categories/news.json
 tags: []
 excerpt: We know that it is time to go to sleep when the cats start speaking latin.
 thumb_image_alt: lorem-ipsum
