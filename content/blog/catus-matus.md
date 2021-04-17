@@ -1,6 +1,6 @@
 ---
 title: Catsum Jitsum
-subtitle: lorem-ipsum
+subtitle: Cats and Jits
 date: '2021-04-17'
 categories:
   - data/categories/falsehoods.json
