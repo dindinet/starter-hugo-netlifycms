@@ -23,7 +23,6 @@ sections:
     padding_bottom: large
     has_border: true
     recent_count: 3
-    category: data/categories/tutorials.json
   - type: form_section
     title: Inline Form
     title_align: center
