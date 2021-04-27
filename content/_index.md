@@ -14,7 +14,7 @@ sections:
       ligula, cursus id molestie vel.
     padding_bottom: large
     type: hero_section
-    image: 
+    image: https://res.cloudinary.com/dklongley/image/upload/g_auto,f_auto/gallerymultipapo.jpg
     actions:
       - type: action
         label: Try Free
