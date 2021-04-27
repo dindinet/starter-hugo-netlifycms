@@ -360,17 +360,6 @@ sections:
         label: Button
         url: /pricing
         style: primary
-  - media_position: top
-    align: left
-    padding_top: medium
-    media_width: fifty
-    background_image_repeat: no-repeat
-    has_border: false
-    background_color: none
-    background_image_size: cover
-    padding_bottom: medium
-    type: hero_section
-    background_image_position: center center
 seo:
   type: stackbit_page_meta
   title: Stackbit DIY Theme
