@@ -60,7 +60,7 @@ sections:
         image: images/logo-8.svg
         image_alt: Git logo
         image_align: center
-    grid_cols: two
+    grid_cols: four
     grid_gap_vert: medium
     grid_gap_horiz: medium
     align: center
