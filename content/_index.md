@@ -1,20 +1,12 @@
 ---
 title: Home
 sections:
-  - media_position: left
-    image_alt: Hero section placeholder image
-    align: left
-    padding_top: large
-    media_width: fifty
-    background_color: primary
-    subtitle: Optional hero section subtitle
+  - type: hero_section
     title: The Unsung Hero Hero Gallery
+    subtitle: Optional hero section subtitle
     content: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
       ligula, cursus id molestie vel.
-    padding_bottom: large
-    type: hero_section
-    image: https://res.cloudinary.com/dklongley/image/upload/g_auto,f_auto/gallerymultipapo.jpg
     actions:
       - type: action
         label: Try Free
@@ -24,12 +16,20 @@ sections:
         label: Learn More
         url: /features
         style: secondary
+    image: https://res.cloudinary.com/dklongley/image/upload/f_auto/gallerymultipapo.jpg
+    image_alt: Hero section placeholder image
+    media_position: left
+    media_width: fifty
+    align: left
+    padding_top: large
+    padding_bottom: large
+    background_color: primary
   - type: grid_section
     title: Image Grid
     subtitle: Grid Section Example
     grid_items:
       - type: grid_item
-        image: /images/logo-1.svg
+        image: images/logo-1.svg
         image_alt: Contentful logo
         image_align: center
       - type: grid_item
@@ -68,17 +68,13 @@ sections:
     title: Features Section
     subtitle: Features Section Example
     features:
-      - media_position: right
-        image_alt: Feature 1 placeholder image
-        media_width: fifty
-        subtitle: 'In fermentum odio et tortor laoreet, sed interdum augue ornare. '
+      - type: feature
         title: The Big Title For the Feature
+        subtitle: 'In fermentum odio et tortor laoreet, sed interdum augue ornare. '
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
           ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
           fringilla, fringilla.
-        type: feature
-        image: images/classic/feature-1.png
         actions:
           - type: action
             label: Learn More
@@ -87,6 +83,10 @@ sections:
             has_icon: true
             icon: arrow-right
             icon_position: right
+        image: images/classic/feature-1.png
+        image_alt: Feature 1 placeholder image
+        media_position: right
+        media_width: fifty
       - type: feature
         title: The Big Title For the Feature
         content: >-
@@ -105,17 +105,13 @@ sections:
         image_alt: Feature 2 placeholder image
         media_position: left
         media_width: fifty
-      - media_position: right
-        image_alt: Feature 3 placeholder image
-        media_width: fifty
-        subtitle: 'Sed sed commodo turpis, eget rutrum dui.'
+      - type: feature
         title: The Big Title For the Feature
+        subtitle: 'Sed sed commodo turpis, eget rutrum dui.'
         content: >-
           Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
           diam quam nulla. Ullamcorper a lacus vestibulum sed arcu non odio
           euismod lacinia.
-        type: feature
-        image: images/classic/feature-3.png
         actions:
           - type: action
             label: Learn More
@@ -124,6 +120,10 @@ sections:
             has_icon: true
             icon: arrow-right
             icon_position: right
+        image: images/classic/feature-3.png
+        image_alt: Feature 3 placeholder image
+        media_position: right
+        media_width: fifty
     feature_padding_vert: large
     align: center
     background_color: secondary
@@ -140,42 +140,40 @@ sections:
         media_width: thirty-three
     feature_padding_vert: small
     background_color: primary
-  - align: center
+  - type: grid_section
+    title: Cards Grid Section
+    subtitle: Grid Section Example
     grid_items:
-      - image_align: left
-        actions_align: left
-        image_alt: Section item 1 icon
-        image_has_padding: true
-        image_position: top
+      - type: grid_item
         title: Section Item 1
+        title_align: left
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
           ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
           fringilla, fringilla.
-        type: grid_item
+        content_align: left
+        actions:
+          - type: action
+            label: Learn More
+            url: /style-guide
+            style: link
+            has_icon: true
+            icon: arrow-right
+            icon_position: center
+        actions_align: left
         image: images/classic/icon-1.svg
-        actions:
-          - type: action
-            label: Learn More
-            url: /style-guide
-            style: link
-            has_icon: true
-            icon: arrow-right
-            icon_position: center
-        title_align: left
-        content_align: left
-      - image_align: left
-        actions_align: left
-        image_alt: Section item 2 icon
-        image_has_padding: true
+        image_alt: Section item 1 icon
         image_position: top
+        image_align: left
+        image_has_padding: true
+      - type: grid_item
         title: Section Item 2
+        title_align: left
         content: >-
           Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
           diam quam nulla. Ullamcorper a lacus vestibulum sed arcu non odio
           euismod lacinia.
-        type: grid_item
-        image: images/classic/icon-2.svg
+        content_align: left
         actions:
           - type: action
             label: Learn More
@@ -184,20 +182,20 @@ sections:
             has_icon: true
             icon: arrow-right
             icon_position: center
-        title_align: left
-        content_align: left
-      - image_align: left
         actions_align: left
-        image_alt: Section item 3 icon
-        image_has_padding: true
+        image: images/classic/icon-2.svg
+        image_alt: Section item 2 icon
         image_position: top
+        image_align: left
+        image_has_padding: true
+      - type: grid_item
         title: Section Item 3
+        title_align: left
         content: >-
           Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
           diam quam nulla. Ullamcorper a lacus vestibulum sed arcu non odio
           euismod lacinia.
-        type: grid_item
-        image: images/classic/icon-3.svg
+        content_align: left
         actions:
           - type: action
             label: Learn More
@@ -206,17 +204,21 @@ sections:
             has_icon: true
             icon: arrow-right
             icon_position: center
-        title_align: left
-        content_align: left
-    enable_cards: true
+        actions_align: left
+        image: images/classic/icon-3.svg
+        image_alt: Section item 3 icon
+        image_position: top
+        image_align: left
+        image_has_padding: true
     grid_cols: three
-    background_color: none
     grid_gap_vert: small
-    subtitle: Grid Section Example
-    title: Cards Grid Section
     grid_gap_horiz: medium
-    type: grid_section
-  - align: center
+    enable_cards: true
+    align: center
+    background_color: none
+  - type: grid_section
+    title: Reviews Section
+    subtitle: Grid Section Example
     grid_items:
       - type: grid_item
         content: >-
@@ -263,29 +265,27 @@ sections:
         image_position: left
         image_width: twenty-five
     grid_cols: two
-    background_color: secondary
     grid_gap_vert: large
-    subtitle: Grid Section Example
-    title: Reviews Section
     grid_gap_horiz: medium
-    type: grid_section
-  - actions_width: fourty
-    align: left
-    padding_top: large
-    actions_position: right
-    background_color: primary
+    align: center
+    background_color: secondary
+  - type: cta_section
     title: This is Call To Action Section In DIY Theme!
     content: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
       ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
       fringilla, fringilla.
-    padding_bottom: large
-    type: cta_section
     actions:
       - type: action
         label: Learn More
         url: /features
         style: secondary
+    actions_position: right
+    actions_width: fourty
+    align: left
+    padding_top: large
+    padding_bottom: large
+    background_color: primary
   - type: grid_section
     title: Team Section
     subtitle: Grid Section Example
@@ -322,44 +322,44 @@ sections:
     grid_cols: four
     align: center
     background_color: secondary
-  - align: center
-    padding_top: medium
-    enable_cards: true
-    recent_count: 3
-    show_author: true
-    show_date: true
-    has_border: false
-    background_color: none
-    blog_feed_cols: three
-    subtitle: Blog Feed Section Example
+  - type: blog_feed_section
     title: What's New
-    show_image: true
-    padding_bottom: medium
-    type: blog_feed_section
+    subtitle: Blog Feed Section Example
     actions:
       - type: action
         label: View All
         url: /blog
         style: primary
+    blog_feed_cols: three
+    enable_cards: true
     show_recent: true
+    recent_count: 3
+    show_date: true
     show_categories: true
+    show_author: true
     show_excerpt: false
-  - align: center
-    padding_top: large
-    actions_position: bottom
-    background_color: secondary
+    show_image: true
+    align: center
+    padding_top: medium
+    padding_bottom: medium
+    has_border: false
+    background_color: none
+  - type: cta_section
     title: This is Call To Action Section In DIY Theme!
     content: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
       ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
       fringilla, fringilla.
-    padding_bottom: large
-    type: cta_section
     actions:
       - type: action
         label: Button
         url: /pricing
         style: primary
+    actions_position: bottom
+    align: center
+    padding_top: large
+    padding_bottom: large
+    background_color: secondary
 seo:
   type: stackbit_page_meta
   title: Stackbit DIY Theme
